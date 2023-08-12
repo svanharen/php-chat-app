@@ -15,7 +15,6 @@ submitBtn.onclick = () => {
     xhr.onload = () => {
         if(xhr.readyState === XMLHttpRequest.DONE){
             if(xhr.status === 200){
-                
                 let data = xhr.response;
                 trimmedData = data.trim();  //removing white spaces from start and end of data
                 if(trimmedData == "success"){
