@@ -15,11 +15,13 @@ submitBtn.onclick = () => {
     xhr.onload = () => {
         if(xhr.readyState === XMLHttpRequest.DONE){
             if(xhr.status === 200){
+                
                 let data = xhr.response;
-                console.log(data);
-                if(data == "success"){
+                trimmedData = data.trim();  //removing white spaces from start and end of data
+                if(trimmedData == "success"){
                     location.href = "users.php"   //redirecting to users.php page on sign up success
                 }else{
+                    console.log("error");
                     errorMessage.textContent = data;    //error message from php file
                     errorMessage.style.display = "block"; 
                 }

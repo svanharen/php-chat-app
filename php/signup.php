@@ -1,4 +1,5 @@
 <?php 
+    session_start();
     include_once("config.php");
 
     $fname     = mysqli_real_escape_string($connection, $_POST['fname']);
@@ -56,13 +57,12 @@
                                     if($sql2){ // if successful insert
                                         $sql3 = mysqli_query($connection, "SELECT * FROM users WHERE email = '{$email}'"); // get all data of the user
                                         if(mysqli_num_rows($sql3) > 0){
+                                            echo "success";
                                             $row = mysqli_fetch_assoc($sql3); // get the data of the user
                                             $_SESSION['unique_id'] = $row['unique_id']; // set session to unique id
-                                            echo "success";
+                                            
                                         }
-
-                                    }
-                                    else{
+                                    }else{
                                         echo "Error: Data not uploaded!";
                                     }
                                 }
