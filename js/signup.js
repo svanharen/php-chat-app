@@ -16,7 +16,9 @@ submitBtn.onclick = () => {
         if(xhr.readyState === XMLHttpRequest.DONE){
             if(xhr.status === 200){
                 let data = xhr.response;
+                console.log(data);
                 if(data == "success"){
+                    location.href = "users.php"   //redirecting to users.php page on sign up success
                 }else{
                     errorMessage.textContent = data;    //error message from php file
                     errorMessage.style.display = "block"; 

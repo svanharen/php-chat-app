@@ -13,7 +13,7 @@
         <section class="form signup">
             <header>Chat App - Mark 1</header>
             <form action="#" enctype="multipart/form-data">
-                <div class="error-message">Error</div>
+                <div class="error-message"></div>
                 <div class="name-input">
                     <div class="field input">
                         <label>First Name</label>
