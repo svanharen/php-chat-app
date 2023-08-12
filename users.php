@@ -13,7 +13,7 @@
         <section class="users">
             <header>
                 <div class="content">
-                    <img src="../assets/logo.png" alt="">
+                    <img src="assets/logo.png" alt="">
                     <div class="details">
                         <span>John Doe</span>
                         <p>Active now</p>
@@ -29,7 +29,7 @@
             <div class="users-list">
                 <a href="#">
                     <div class="content">
-                        <img src="../assets/logo.png" alt="">
+                        <img src="assets/logo.png" alt="">
                         <div class="details">
                             <span>Jane Doe</span>
                             <p>Test message</p>
@@ -41,7 +41,7 @@
                 </a>
                 <a href="#">
                     <div class="content">
-                        <img src="../assets/logo.png" alt="">
+                        <img src="assets/logo.png" alt="">
                         <div class="details">
                             <span>Jane Doe</span>
                             <p>Test message</p>
@@ -53,7 +53,7 @@
                 </a>
                 <a href="#">
                     <div class="content">
-                        <img src="../assets/logo.png" alt="">
+                        <img src="assets/logo.png" alt="">
                         <div class="details">
                             <span>Jane Doe</span>
                             <p>Test message</p>
@@ -65,7 +65,7 @@
                 </a>
                 <a href="#">
                     <div class="content">
-                        <img src="../assets/logo.png" alt="">
+                        <img src="assets/logo.png" alt="">
                         <div class="details">
                             <span>Jane Doe</span>
                             <p>Test message</p>
@@ -77,7 +77,7 @@
                 </a>
                 <a href="#">
                     <div class="content">
-                        <img src="../assets/logo.png" alt="">
+                        <img src="assets/logo.png" alt="">
                         <div class="details">
                             <span>Jane Doe</span>
                             <p>Test message</p>
@@ -89,7 +89,7 @@
                 </a>
                 <a href="#">
                     <div class="content">
-                        <img src="../assets/logo.png" alt="">
+                        <img src="assets/logo.png" alt="">
                         <div class="details">
                             <span>Jane Doe</span>
                             <p>Test message</p>
@@ -101,7 +101,7 @@
                 </a>
                 <a href="#">
                     <div class="content">
-                        <img src="../assets/logo.png" alt="">
+                        <img src="assets/logo.png" alt="">
                         <div class="details">
                             <span>Jane Doe</span>
                             <p>Test message</p>
@@ -115,6 +115,6 @@
         </section>
     </div>
 
-    <script src="../js/users.js"></script>
+    <script src="js/users.js"></script>
 </body>
 </html>
